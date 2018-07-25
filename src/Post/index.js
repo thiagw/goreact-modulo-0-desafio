@@ -7,19 +7,14 @@ import PostHeader from "./PostHeader";
 // Styles
 import './post.scss';
 
-class Post extends Component {
+const Post = ({ data }) => {
 
-    render() {
-
-        const { data } = this.props;
-
-        return (
-            <article className="post">
-                <PostHeader meta={data.meta} />
-                <PostContent content={data.postContent} />
-            </article>
-        );
-    }
+    return (
+        <article className="post">
+            <PostHeader meta={data.meta} />
+            <PostContent content={data.postContent} />
+        </article>
+    );
 };
 
 export default Post;
