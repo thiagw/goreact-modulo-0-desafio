@@ -1,0 +1,40 @@
+{
+    "name": "goreact-modulo-0-desafio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack-dev-server --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thiagw/goreact-modulo-0-desafio.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thiagw/goreact-modulo-0-desafio/issues"
+    },
+    "homepage": "https://github.com/thiagw/goreact-modulo-0-desafio#readme",
+    "description": "",
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^1.0.0",
+        "node-sass": "^4.9.2",
+        "sass-loader": "^7.0.3",
+        "style-loader": "^0.21.0",
+        "webpack": "^4.16.2",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.5"
+    }
+}
